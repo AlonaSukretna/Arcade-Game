@@ -36,40 +36,17 @@ Add to index.html and restaurant.html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="UTF-8">
 2. Create a responsive grid-based layout using CSS.
-Add to #restaurants-list//Make the flexible items wrap if necessary
-       #reviews-list li
-       #maincontent
-       .filter-options
-display: flex;
-flex-wrap: wrap;
-Add to #restaurants-list li a //Let an image float to the right
-float: right;
-#map-container {
-  width: 100%;
-}
 3. Use media queries that provide fluid breakpoints across different screen sizes
 4. Use responsive images that adjust for the dimensions and resolution of any device
 
-#restaurants-list .restaurant-img {
-  /*  min-height: 248px;
-    min-width: 100%;*/
-    height: auto;
-#restaurants-list .restaurant-img {
-  /*  min-height: 248px; */
-
-}
-#restaurant-img {
-	/* width: 90%;*/
-	width: 100%;
-	height: auto;
-}
 
 Accessibility:
 Run Audit in DevTools for accessibility.
-1.<img id="restaurant-img" class="restaurant-img" src="/img/1.jpg"> do not have
- alt attributes.
-2.footer background color has not sufficient contrast
-3. html does not have languaGE attribute
+1.<img id="restaurant-img"> add alt attribute.
+2.Footer background color, <h1 id="restaurant-name"></h1>, a{} had not sufficient
+ contrast. Change colors.
+3. Add language attribute to html.
+4. Filter elements add labeles for screenreader.
 
 Offline Availability:
 1. Register Service Worker:
