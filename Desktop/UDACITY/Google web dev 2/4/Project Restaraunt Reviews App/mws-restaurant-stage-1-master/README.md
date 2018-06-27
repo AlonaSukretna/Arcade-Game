@@ -46,7 +46,8 @@ Run Audit in DevTools for accessibility.
 2.Footer background color, <h1 id="restaurant-name"></h1>, a{} had not sufficient
  contrast. Change colors.
 3. Add language attribute to html.
-4. Filter elements add labeles for screenreader.
+4. Filter elements (select neighborhoods, select cuisines)add aria labeles
+for screenreader.
 
 Offline Availability:
 1. Register Service Worker:
