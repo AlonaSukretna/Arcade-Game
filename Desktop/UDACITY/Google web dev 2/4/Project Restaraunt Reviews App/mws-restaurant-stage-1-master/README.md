@@ -50,5 +50,8 @@ Run Audit in DevTools for accessibility.
 for screenreader.
 
 Offline Availability:
-1. Register Service Worker:
- code
+1. Register Service Worker: register_sw.js
+2. Include script to index.html and restaurant.html.
+  <script src="js/register_sw.js"></script>
+3. Created the Service Worker script in the root of the application (‘/sw.js’).
+4. Event handler to serve cached assets
